@@ -9,7 +9,6 @@
     flex-direction: row;
     width: 100vw;
     height: 100vh;
-    justify-content: flex-end;
 }
 
 .main-container {
@@ -31,9 +30,7 @@
     height: 50vh;
 }
 
-.pic {
-    display: flex;
-    justify-content: flex-end;
+.picBox {
     height: 50vh;
     margin-left: auto;
     margin-right: 20%;
@@ -46,14 +43,15 @@
     transition: filter 300ms;
 }
 
-/*.logo:hover {*/
-/*    filter: drop-shadow(0 0 2em #646cffaa);*/
-/*}*/
+.name:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
 
 .me {
-    height: 6em;
     padding: 1.5em;
-
+    clip-path: circle(40%);
+    width: 50em;
+    height: 40em;
 }
 
 .card {

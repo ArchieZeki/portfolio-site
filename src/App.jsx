@@ -18,7 +18,7 @@ function App() {
                                   </span>
                         </div>
                     </div>
-                    <div className="pic">
+                    <div className="picBox">
                         <a href="/src/assets/duckMe.png">
                             <img src={duck} className="me" alt="Me"/>
                         </a>
