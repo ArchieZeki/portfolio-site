@@ -7,7 +7,17 @@
 .home {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
+    justify-content: flex-end;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 65vh;
+    justify-content: flex-end;
 }
 
 .name {
@@ -16,12 +26,17 @@
     text-align: center;
 }
 
+.space {
+    padding-top: 50vh;
+    height: 50vh;
+}
+
 .pic {
     display: flex;
     justify-content: flex-end;
     height: 50vh;
     margin-left: auto;
-    margin-right: 10%;
+    margin-right: 20%;
 }
 
 .logo {
